@@ -28,6 +28,7 @@ const fileUrl = require('file-url');
 const fs = require('fs');
 const path = require('path');
 const puppeteer = require('puppeteer');
+process.setMaxListeners(Infinity);
 const tmp = require('tmp');
 const util = require('util');
 
